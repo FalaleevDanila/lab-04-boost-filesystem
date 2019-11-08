@@ -1,0 +1,1 @@
+C:/.hunter/_Base/9a3594a/7dabf8e/2c875e7/Install/lib/libboost_filesystem-mt-d.a C:/.hunter/_Base/9a3594a/7dabf8e/2c875e7/Install/lib/libboost_system-mt-d.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

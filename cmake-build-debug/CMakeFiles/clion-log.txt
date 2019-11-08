@@ -1,0 +1,808 @@
+C:\Users\danf2\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\192.6262.62\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_COMPILER=D:/MinGWx64/mingw32/bin/g++.exe -G "CodeBlocks - MinGW Makefiles" "D:\New Folder\lab-04-boost-filesystem"
+-- The C compiler identification is GNU 7.2.0
+-- The CXX compiler identification is GNU 7.2.0
+-- Check for working C compiler: D:/MinGWx64/mingw32/bin/gcc.exe
+-- Check for working C compiler: D:/MinGWx64/mingw32/bin/gcc.exe -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: D:/MinGWx64/mingw32/bin/g++.exe
+-- Check for working CXX compiler: D:/MinGWx64/mingw32/bin/g++.exe -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- [hunter] Calculating Toolchain-SHA1
+-- [hunter] Calculating Config-SHA1
+-- [hunter] HUNTER_ROOT: C:/.hunter
+-- [hunter] [ Hunter-ID: 9a3594a | Toolchain-ID: 7dabf8e | Config-ID: 2c875e7 ]
+-- [hunter] GTEST_ROOT: C:/.hunter/_Base/9a3594a/7dabf8e/2c875e7/Install (ver.: 1.8.0-hunter-p11)
+CMake Warning (dev) at CMakeLists.txt:27 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  Environment variable GTest_ROOT is set to:
+
+    C:/.hunter/_Base/9a3594a/7dabf8e/2c875e7/Install
+
+  For compatibility, CMake is ignoring the variable.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- [hunter] BOOST_ROOT: C:/.hunter/_Base/9a3594a/7dabf8e/2c875e7/Install (ver.: 1.64.0)
+-- [hunter] Cache HIT: Boost
+-- [hunter] Cache info: C:/.hunter/_Base/Cache/meta/7dabf8e/Boost/1.64.0/51421ef/da39a3e/4830b34/f54ee8e/da39a3e/cache.sha1
+-- [hunter] BOOST_ROOT: C:/.hunter/_Base/9a3594a/7dabf8e/2c875e7/Install (ver.: 1.64.0)
+-- [hunter] Building Boost (component: filesystem)
+loading initial cache file C:/.hunter/_Base/9a3594a/7dabf8e/2c875e7/cache.cmake
+loading initial cache file C:/.hunter/_Base/9a3594a/7dabf8e/2c875e7/Build/Boost/__filesystem/args.cmake
+-- The C compiler identification is GNU 7.2.0
+-- The CXX compiler identification is GNU 7.2.0
+-- Check for working C compiler: D:/MinGWx64/mingw32/bin/gcc.exe
+-- Check for working C compiler: D:/MinGWx64/mingw32/bin/gcc.exe -- works
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: D:/MinGWx64/mingw32/bin/g++.exe
+-- Check for working CXX compiler: D:/MinGWx64/mingw32/bin/g++.exe -- works
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/.hunter/_Base/9a3594a/7dabf8e/2c875e7/Build/Boost/__filesystem/Build
+Scanning dependencies of target Boost-filesystem
+[ 12%] Creating directories for 'Boost-filesystem'
+[ 25%] Performing download step (download, verify and extract) for 'Boost-filesystem'
+-- verifying file...
+       file='C:/.hunter/_Base/Download/Boost/1.64.0/51421ef/boost_1_64_0.tar.bz2'
+-- File already exists and hash match (skip download):
+  file='C:/.hunter/_Base/Download/Boost/1.64.0/51421ef/boost_1_64_0.tar.bz2'
+  SHA1='51421ef259a4530edea0fbfc448460fcc5c64edb'
+-- extracting...
+     src='C:/.hunter/_Base/Download/Boost/1.64.0/51421ef/boost_1_64_0.tar.bz2'
+     dst='C:/.hunter/_Base/9a3594a/7dabf8e/2c875e7/Build/Boost/__filesystem/Source'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 37%] No patch step for 'Boost-filesystem'
+[ 50%] Performing update step for 'Boost-filesystem'
+[ 62%] Performing configure step for 'Boost-filesystem'
+Dummy patch command
+Building Boost.Build engine
+execcmd.c: In function 'onintr':
+execcmd.c:120:5: warning: implicit declaration of function 'out_printf'; did you mean 'lol_print'? [-Wimplicit-function-declaration]
+     out_printf( "...interrupted\n" );
+     ^~~~~~~~~~
+     lol_print
+execnt.c: In function 'maxline':
+execnt.c:524:12: warning: type defaults to 'int' in declaration of 'result' [-Wimplicit-int]
+     static result;
+            ^~~~~~
+filent.c: In function 'file_archscan':
+filent.c:358:10: warning: implicit declaration of function 'filelist_empty'; did you mean 'filelist_next'? [-Wimplicit-function-declaration]
+     if ( filelist_empty( archive->members ) )
+          ^~~~~~~~~~~~~~
+          filelist_next
+filent.c:360:14: warning: implicit declaration of function 'file_collect_archive_content_'; did you mean 'file_collect_dir_content_'? [-Wimplicit-function-declaration]
+         if ( file_collect_archive_content_( archive ) < 0 )
+              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+              file_collect_dir_content_
+make.c: In function 'make':
+make.c:132:13: warning: implicit declaration of function 'out_printf'; did you mean 'lol_print'? [-Wimplicit-function-declaration]
+             out_printf( "...found %d target%s...\n", counts->targets,
+             ^~~~~~~~~~
+             lol_print
+make.c: In function 'make0':
+make.c:735:13: warning: implicit declaration of function 'out_flush'; did you mean 'fflush'? [-Wimplicit-function-declaration]
+             out_flush();
+             ^~~~~~~~~
+             fflush
+filesys.c: In function 'file_archivescan_impl':
+filesys.c:360:10: warning: implicit declaration of function 'filelist_empty'; did you mean 'filelist_next'? [-Wimplicit-function-declaration]
+     if ( filelist_empty( archive->members ) )
+          ^~~~~~~~~~~~~~
+          filelist_next
+modules/path.c: In function 'path_exists':
+modules/path.c:16:12: warning: implicit declaration of function 'file_query' [-Wimplicit-function-declaration]
+     return file_query( list_front( lol_get( frame->args, 0 ) ) ) ?
+            ^~~~~~~~~~
+
+Bootstrapping is done. To build, run:
+
+    .\b2
+    
+To adjust configuration, edit 'project-config.jam'.
+Further information:
+
+    - Command line help:
+    .\b2 --help
+     
+    - Getting started guide: 
+    http://boost.org/more/getting_started/windows.html
+     
+    - Boost.Build documentation:
+    http://www.boost.org/build/doc/html/index.html
+[ 75%] Performing build step for 'Boost-filesystem'
+Performing configuration checks
+
+    - 32-bit                   : yes
+    - arm                      : no
+    - mips1                    : no
+    - power                    : no
+    - sparc                    : no
+    - x86                      : yes
+
+Building the Boost C++ Libraries.
+
+
+    - symlinks supported       : no
+    - junctions supported      : yes
+    - hardlinks supported      : yes
+
+Component configuration:
+
+    - atomic                   : not building
+    - chrono                   : not building
+    - container                : not building
+    - context                  : not building
+    - coroutine                : not building
+    - coroutine2               : not building
+    - date_time                : not building
+    - exception                : not building
+    - fiber                    : not building
+    - filesystem               : building
+    - graph                    : not building
+    - graph_parallel           : not building
+    - iostreams                : not building
+    - locale                   : not building
+    - log                      : not building
+    - math                     : not building
+    - metaparse                : not building
+    - mpi                      : not building
+    - program_options          : not building
+    - python                   : not building
+    - random                   : not building
+    - regex                    : not building
+    - serialization            : not building
+    - signals                  : not building
+    - system                   : not building
+    - test                     : not building
+    - thread                   : not building
+    - timer                    : not building
+    - type_erasure             : not building
+    - wave                     : not building
+
+...patience...
+...found 681 targets...
+...updating 51 targets...
+common.mkdir stage
+common.mkdir bin.v2\libs
+common.mkdir stage\lib
+common.mkdir bin.v2\libs\system
+common.mkdir bin.v2\libs\filesystem
+common.mkdir bin.v2\libs\system\build
+common.mkdir bin.v2\libs\filesystem\build
+common.mkdir bin.v2\libs\system\build\gcc-mingw-7.2.0
+common.mkdir bin.v2\libs\filesystem\build\gcc-mingw-7.2.0
+common.mkdir bin.v2\libs\system\build\gcc-mingw-7.2.0\debug
+common.mkdir bin.v2\libs\filesystem\build\gcc-mingw-7.2.0\debug
+common.mkdir bin.v2\libs\system\build\gcc-mingw-7.2.0\release
+common.mkdir bin.v2\libs\system\build\gcc-mingw-7.2.0\debug\link-static
+common.mkdir bin.v2\libs\filesystem\build\gcc-mingw-7.2.0\debug\link-static
+common.mkdir bin.v2\libs\system\build\gcc-mingw-7.2.0\release\link-static
+common.mkdir bin.v2\libs\system\build\gcc-mingw-7.2.0\debug\link-static\threading-multi
+common.mkdir bin.v2\libs\filesystem\build\gcc-mingw-7.2.0\debug\link-static\threading-multi
+common.mkdir bin.v2\libs\system\build\gcc-mingw-7.2.0\release\link-static\threading-multi
+common.mkdir bin.v2\libs\filesystem\build\gcc-mingw-7.2.0\release
+common.mkdir bin.v2\libs\filesystem\build\gcc-mingw-7.2.0\release\link-static
+common.mkdir bin.v2\libs\filesystem\build\gcc-mingw-7.2.0\release\link-static\threading-multi
+gcc.compile.c++ bin.v2\libs\filesystem\build\gcc-mingw-7.2.0\release\link-static\threading-multi\codecvt_error_category.o
+gcc.compile.c++ bin.v2\libs\filesystem\build\gcc-mingw-7.2.0\debug\link-static\threading-multi\codecvt_error_category.o
+gcc.compile.c++ bin.v2\libs\filesystem\build\gcc-mingw-7.2.0\debug\link-static\threading-multi\path_traits.o
+gcc.compile.c++ bin.v2\libs\filesystem\build\gcc-mingw-7.2.0\debug\link-static\threading-multi\utf8_codecvt_facet.o
+gcc.compile.c++ bin.v2\libs\filesystem\build\gcc-mingw-7.2.0\debug\link-static\threading-multi\portability.o
+gcc.compile.c++ bin.v2\libs\filesystem\build\gcc-mingw-7.2.0\debug\link-static\threading-multi\windows_file_codecvt.o
+gcc.compile.c++ bin.v2\libs\system\build\gcc-mingw-7.2.0\debug\link-static\threading-multi\error_code.o
+gcc.compile.c++ bin.v2\libs\filesystem\build\gcc-mingw-7.2.0\release\link-static\threading-multi\path_traits.o
+gcc.compile.c++ bin.v2\libs\system\build\gcc-mingw-7.2.0\release\link-static\threading-multi\error_code.o
+gcc.archive bin.v2\libs\system\build\gcc-mingw-7.2.0\debug\link-static\threading-multi\libboost_system-mt-d.a
+common.copy stage\lib\libboost_system-mt-d.a
+bin.v2\libs\system\build\gcc-mingw-7.2.0\debug\link-static\threading-multi\libboost_system-mt-d.a
+пїЅпїЅпїЅпїЅпїЅа®ўпїЅпїЅпїЅ д ©пїЅпїЅпїЅ:         1.
+gcc.archive bin.v2\libs\system\build\gcc-mingw-7.2.0\release\link-static\threading-multi\libboost_system-mt.a
+common.copy stage\lib\libboost_system-mt.a
+bin.v2\libs\system\build\gcc-mingw-7.2.0\release\link-static\threading-multi\libboost_system-mt.a
+пїЅпїЅпїЅпїЅпїЅа®ўпїЅпїЅпїЅ д ©пїЅпїЅпїЅ:         1.
+gcc.compile.c++ bin.v2\libs\filesystem\build\gcc-mingw-7.2.0\release\link-static\threading-multi\portability.o
+gcc.compile.c++ bin.v2\libs\filesystem\build\gcc-mingw-7.2.0\release\link-static\threading-multi\utf8_codecvt_facet.o
+gcc.compile.c++ bin.v2\libs\filesystem\build\gcc-mingw-7.2.0\release\link-static\threading-multi\windows_file_codecvt.o
+gcc.compile.c++ bin.v2\libs\filesystem\build\gcc-mingw-7.2.0\debug\link-static\threading-multi\unique_path.o
+gcc.compile.c++ bin.v2\libs\filesystem\build\gcc-mingw-7.2.0\release\link-static\threading-multi\unique_path.o
+gcc.compile.c++ bin.v2\libs\filesystem\build\gcc-mingw-7.2.0\debug\link-static\threading-multi\path.o
+gcc.compile.c++ bin.v2\libs\filesystem\build\gcc-mingw-7.2.0\debug\link-static\threading-multi\operations.o
+gcc.archive bin.v2\libs\filesystem\build\gcc-mingw-7.2.0\debug\link-static\threading-multi\libboost_filesystem-mt-d.a
+common.copy stage\lib\libboost_filesystem-mt-d.a
+bin.v2\libs\filesystem\build\gcc-mingw-7.2.0\debug\link-static\threading-multi\libboost_filesystem-mt-d.a
+пїЅпїЅпїЅпїЅпїЅа®ўпїЅпїЅпїЅ д ©пїЅпїЅпїЅ:         1.
+gcc.compile.c++ bin.v2\libs\filesystem\build\gcc-mingw-7.2.0\release\link-static\threading-multi\path.o
+gcc.compile.c++ bin.v2\libs\filesystem\build\gcc-mingw-7.2.0\release\link-static\threading-multi\operations.o
+gcc.archive bin.v2\libs\filesystem\build\gcc-mingw-7.2.0\release\link-static\threading-multi\libboost_filesystem-mt.a
+common.copy stage\lib\libboost_filesystem-mt.a
+bin.v2\libs\filesystem\build\gcc-mingw-7.2.0\release\link-static\threading-multi\libboost_filesystem-mt.a
+пїЅпїЅпїЅпїЅпїЅа®ўпїЅпїЅпїЅ д ©пїЅпїЅпїЅ:         1.
+...updated 51 targets...
+
+
+The Boost C++ Libraries were successfully built!
+
+The following directory should be added to compiler include paths:
+
+    C:\.hunter\_Base\9a3594a\7dabf8e\2c875e7\Build\Boost\__filesystem\Source
+
+The following directory should be added to linker library paths:
+
+    C:\.hunter\_Base\9a3594a\7dabf8e\2c875e7\Build\Boost\__filesystem\Source\stage\lib
+
+[ 87%] Performing install step for 'Boost-filesystem'
+Performing configuration checks
+
+    - 32-bit                   : yes (cached)
+    - arm                      : no  (cached)
+    - mips1                    : no  (cached)
+    - power                    : no  (cached)
+    - sparc                    : no  (cached)
+    - x86                      : yes (cached)
+    - symlinks supported       : no  (cached)
+    - junctions supported      : yes (cached)
+    - hardlinks supported      : yes (cached)
+
+Component configuration:
+
+    - atomic                   : not building
+    - chrono                   : not building
+    - container                : not building
+    - context                  : not building
+    - coroutine                : not building
+    - coroutine2               : not building
+    - date_time                : not building
+    - exception                : not building
+    - fiber                    : not building
+    - filesystem               : building
+    - graph                    : not building
+    - graph_parallel           : not building
+    - iostreams                : not building
+    - locale                   : not building
+    - log                      : not building
+    - math                     : not building
+    - metaparse                : not building
+    - mpi                      : not building
+    - program_options          : not building
+    - python                   : not building
+    - random                   : not building
+    - regex                    : not building
+    - serialization            : not building
+    - signals                  : not building
+    - system                   : not building
+    - test                     : not building
+    - thread                   : not building
+    - timer                    : not building
+    - type_erasure             : not building
+    - wave                     : not building
+
+[100%] Completed 'Boost-filesystem'
+[100%] Built target Boost-filesystem
+-- [hunter] Build step successful (dir: C:/.hunter/_Base/9a3594a/7dabf8e/2c875e7/Build/Boost/__filesystem)
+-- [hunter] Cache saved: C:/.hunter/_Base/Cache/raw/fa053f937b2500911c931ff3e527171014cf87e7.tar.bz2
+-- [hunter] BOOST_ROOT: C:/.hunter/_Base/9a3594a/7dabf8e/2c875e7/Install (ver.: 1.64.0)
+-- [hunter] Building Boost (component: regex)
+loading initial cache file C:/.hunter/_Base/9a3594a/7dabf8e/2c875e7/cache.cmake
+loading initial cache file C:/.hunter/_Base/9a3594a/7dabf8e/2c875e7/Build/Boost/__regex/args.cmake
+-- The C compiler identification is GNU 7.2.0
+-- The CXX compiler identification is GNU 7.2.0
+-- Check for working C compiler: D:/MinGWx64/mingw32/bin/gcc.exe
+-- Check for working C compiler: D:/MinGWx64/mingw32/bin/gcc.exe -- works
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: D:/MinGWx64/mingw32/bin/g++.exe
+-- Check for working CXX compiler: D:/MinGWx64/mingw32/bin/g++.exe -- works
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/.hunter/_Base/9a3594a/7dabf8e/2c875e7/Build/Boost/__regex/Build
+Scanning dependencies of target Boost-regex
+[ 12%] Creating directories for 'Boost-regex'
+[ 25%] Performing download step (download, verify and extract) for 'Boost-regex'
+-- verifying file...
+       file='C:/.hunter/_Base/Download/Boost/1.64.0/51421ef/boost_1_64_0.tar.bz2'
+-- File already exists and hash match (skip download):
+  file='C:/.hunter/_Base/Download/Boost/1.64.0/51421ef/boost_1_64_0.tar.bz2'
+  SHA1='51421ef259a4530edea0fbfc448460fcc5c64edb'
+-- extracting...
+     src='C:/.hunter/_Base/Download/Boost/1.64.0/51421ef/boost_1_64_0.tar.bz2'
+     dst='C:/.hunter/_Base/9a3594a/7dabf8e/2c875e7/Build/Boost/__regex/Source'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 37%] No patch step for 'Boost-regex'
+[ 50%] Performing update step for 'Boost-regex'
+[ 62%] Performing configure step for 'Boost-regex'
+Dummy patch command
+Building Boost.Build engine
+execcmd.c: In function 'onintr':
+execcmd.c:120:5: warning: implicit declaration of function 'out_printf'; did you mean 'lol_print'? [-Wimplicit-function-declaration]
+     out_printf( "...interrupted\n" );
+     ^~~~~~~~~~
+     lol_print
+execnt.c: In function 'maxline':
+execnt.c:524:12: warning: type defaults to 'int' in declaration of 'result' [-Wimplicit-int]
+     static result;
+            ^~~~~~
+filent.c: In function 'file_archscan':
+filent.c:358:10: warning: implicit declaration of function 'filelist_empty'; did you mean 'filelist_next'? [-Wimplicit-function-declaration]
+     if ( filelist_empty( archive->members ) )
+          ^~~~~~~~~~~~~~
+          filelist_next
+filent.c:360:14: warning: implicit declaration of function 'file_collect_archive_content_'; did you mean 'file_collect_dir_content_'? [-Wimplicit-function-declaration]
+         if ( file_collect_archive_content_( archive ) < 0 )
+              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+              file_collect_dir_content_
+make.c: In function 'make':
+make.c:132:13: warning: implicit declaration of function 'out_printf'; did you mean 'lol_print'? [-Wimplicit-function-declaration]
+             out_printf( "...found %d target%s...\n", counts->targets,
+             ^~~~~~~~~~
+             lol_print
+make.c: In function 'make0':
+make.c:735:13: warning: implicit declaration of function 'out_flush'; did you mean 'fflush'? [-Wimplicit-function-declaration]
+             out_flush();
+             ^~~~~~~~~
+             fflush
+filesys.c: In function 'file_archivescan_impl':
+filesys.c:360:10: warning: implicit declaration of function 'filelist_empty'; did you mean 'filelist_next'? [-Wimplicit-function-declaration]
+     if ( filelist_empty( archive->members ) )
+          ^~~~~~~~~~~~~~
+          filelist_next
+modules/path.c: In function 'path_exists':
+modules/path.c:16:12: warning: implicit declaration of function 'file_query' [-Wimplicit-function-declaration]
+     return file_query( list_front( lol_get( frame->args, 0 ) ) ) ?
+            ^~~~~~~~~~
+
+Bootstrapping is done. To build, run:
+
+    .\b2
+    
+To adjust configuration, edit 'project-config.jam'.
+Further information:
+
+    - Command line help:
+    .\b2 --help
+     
+    - Getting started guide: 
+    http://boost.org/more/getting_started/windows.html
+     
+    - Boost.Build documentation:
+    http://www.boost.org/build/doc/html/index.html
+[ 75%] Performing build step for 'Boost-regex'
+Performing configuration checks
+
+    - 32-bit                   : yes
+    - arm                      : no
+    - mips1                    : no
+    - power                    : no
+    - sparc                    : no
+    - x86                      : yes
+
+Building the Boost C++ Libraries.
+
+
+    - symlinks supported       : no
+    - junctions supported      : yes
+    - hardlinks supported      : yes
+    - has_icu builds           : no
+
+Component configuration:
+
+    - atomic                   : not building
+    - chrono                   : not building
+    - container                : not building
+    - context                  : not building
+    - coroutine                : not building
+    - coroutine2               : not building
+    - date_time                : not building
+    - exception                : not building
+    - fiber                    : not building
+    - filesystem               : not building
+    - graph                    : not building
+    - graph_parallel           : not building
+    - iostreams                : not building
+    - locale                   : not building
+    - log                      : not building
+    - math                     : not building
+    - metaparse                : not building
+    - mpi                      : not building
+    - program_options          : not building
+    - python                   : not building
+    - random                   : not building
+    - regex                    : building
+    - serialization            : not building
+    - signals                  : not building
+    - system                   : not building
+    - test                     : not building
+    - thread                   : not building
+    - timer                    : not building
+    - type_erasure             : not building
+    - wave                     : not building
+
+...patience...
+...found 626 targets...
+...updating 47 targets...
+common.mkdir stage
+common.mkdir bin.v2\libs\regex\build\gcc-mingw-7.2.0\debug\link-static
+common.mkdir bin.v2\libs\regex\build\gcc-mingw-7.2.0\release
+common.mkdir stage\lib
+common.mkdir bin.v2\libs\regex\build\gcc-mingw-7.2.0\debug\link-static\threading-multi
+common.mkdir bin.v2\libs\regex\build\gcc-mingw-7.2.0\release\link-static
+common.mkdir bin.v2\libs\regex\build\gcc-mingw-7.2.0\release\link-static\threading-multi
+gcc.compile.c++ bin.v2\libs\regex\build\gcc-mingw-7.2.0\debug\link-static\threading-multi\icu.o
+gcc.compile.c++ bin.v2\libs\regex\build\gcc-mingw-7.2.0\debug\link-static\threading-multi\regex_debug.o
+gcc.compile.c++ bin.v2\libs\regex\build\gcc-mingw-7.2.0\debug\link-static\threading-multi\instances.o
+gcc.compile.c++ bin.v2\libs\regex\build\gcc-mingw-7.2.0\debug\link-static\threading-multi\regex_raw_buffer.o
+gcc.compile.c++ bin.v2\libs\regex\build\gcc-mingw-7.2.0\release\link-static\threading-multi\icu.o
+gcc.compile.c++ bin.v2\libs\regex\build\gcc-mingw-7.2.0\debug\link-static\threading-multi\cpp_regex_traits.o
+gcc.compile.c++ bin.v2\libs\regex\build\gcc-mingw-7.2.0\debug\link-static\threading-multi\regex_traits_defaults.o
+gcc.compile.c++ bin.v2\libs\regex\build\gcc-mingw-7.2.0\debug\link-static\threading-multi\c_regex_traits.o
+gcc.compile.c++ bin.v2\libs\regex\build\gcc-mingw-7.2.0\debug\link-static\threading-multi\fileiter.o
+gcc.compile.c++ bin.v2\libs\regex\build\gcc-mingw-7.2.0\release\link-static\threading-multi\cpp_regex_traits.o
+gcc.compile.c++ bin.v2\libs\regex\build\gcc-mingw-7.2.0\release\link-static\threading-multi\regex_debug.o
+gcc.compile.c++ bin.v2\libs\regex\build\gcc-mingw-7.2.0\release\link-static\threading-multi\c_regex_traits.o
+gcc.compile.c++ bin.v2\libs\regex\build\gcc-mingw-7.2.0\debug\link-static\threading-multi\regex.o
+gcc.compile.c++ bin.v2\libs\regex\build\gcc-mingw-7.2.0\release\link-static\threading-multi\w32_regex_traits.o
+gcc.compile.c++ bin.v2\libs\regex\build\gcc-mingw-7.2.0\release\link-static\threading-multi\instances.o
+gcc.compile.c++ bin.v2\libs\regex\build\gcc-mingw-7.2.0\release\link-static\threading-multi\regex_raw_buffer.o
+gcc.compile.c++ bin.v2\libs\regex\build\gcc-mingw-7.2.0\release\link-static\threading-multi\static_mutex.o
+gcc.compile.c++ bin.v2\libs\regex\build\gcc-mingw-7.2.0\release\link-static\threading-multi\winstances.o
+gcc.compile.c++ bin.v2\libs\regex\build\gcc-mingw-7.2.0\release\link-static\threading-multi\fileiter.o
+gcc.compile.c++ bin.v2\libs\regex\build\gcc-mingw-7.2.0\debug\link-static\threading-multi\w32_regex_traits.o
+gcc.compile.c++ bin.v2\libs\regex\build\gcc-mingw-7.2.0\release\link-static\threading-multi\regex_traits_defaults.o
+gcc.compile.c++ bin.v2\libs\regex\build\gcc-mingw-7.2.0\release\link-static\threading-multi\usinstances.o
+gcc.compile.c++ bin.v2\libs\regex\build\gcc-mingw-7.2.0\debug\link-static\threading-multi\static_mutex.o
+gcc.compile.c++ bin.v2\libs\regex\build\gcc-mingw-7.2.0\debug\link-static\threading-multi\winstances.o
+gcc.compile.c++ bin.v2\libs\regex\build\gcc-mingw-7.2.0\release\link-static\threading-multi\regex.o
+gcc.compile.c++ bin.v2\libs\regex\build\gcc-mingw-7.2.0\release\link-static\threading-multi\wc_regex_traits.o
+gcc.compile.c++ bin.v2\libs\regex\build\gcc-mingw-7.2.0\debug\link-static\threading-multi\usinstances.o
+gcc.compile.c++ bin.v2\libs\regex\build\gcc-mingw-7.2.0\debug\link-static\threading-multi\wc_regex_traits.o
+gcc.compile.c++ bin.v2\libs\regex\build\gcc-mingw-7.2.0\debug\link-static\threading-multi\posix_api.o
+gcc.compile.c++ bin.v2\libs\regex\build\gcc-mingw-7.2.0\debug\link-static\threading-multi\wide_posix_api.o
+gcc.compile.c++ bin.v2\libs\regex\build\gcc-mingw-7.2.0\release\link-static\threading-multi\posix_api.o
+gcc.compile.c++ bin.v2\libs\regex\build\gcc-mingw-7.2.0\debug\link-static\threading-multi\cregex.o
+gcc.compile.c++ bin.v2\libs\regex\build\gcc-mingw-7.2.0\release\link-static\threading-multi\wide_posix_api.o
+gcc.archive bin.v2\libs\regex\build\gcc-mingw-7.2.0\debug\link-static\threading-multi\libboost_regex-mt-d.a
+common.copy stage\lib\libboost_regex-mt-d.a
+bin.v2\libs\regex\build\gcc-mingw-7.2.0\debug\link-static\threading-multi\libboost_regex-mt-d.a
+пїЅпїЅпїЅпїЅпїЅа®ўпїЅпїЅпїЅ д ©пїЅпїЅпїЅ:         1.
+gcc.compile.c++ bin.v2\libs\regex\build\gcc-mingw-7.2.0\release\link-static\threading-multi\cregex.o
+gcc.archive bin.v2\libs\regex\build\gcc-mingw-7.2.0\release\link-static\threading-multi\libboost_regex-mt.a
+common.copy stage\lib\libboost_regex-mt.a
+bin.v2\libs\regex\build\gcc-mingw-7.2.0\release\link-static\threading-multi\libboost_regex-mt.a
+пїЅпїЅпїЅпїЅпїЅа®ўпїЅпїЅпїЅ д ©пїЅпїЅпїЅ:         1.
+...updated 47 targets...
+
+
+The Boost C++ Libraries were successfully built!
+
+The following directory should be added to compiler include paths:
+
+    C:\.hunter\_Base\9a3594a\7dabf8e\2c875e7\Build\Boost\__regex\Source
+
+The following directory should be added to linker library paths:
+
+    C:\.hunter\_Base\9a3594a\7dabf8e\2c875e7\Build\Boost\__regex\Source\stage\lib
+
+[ 87%] Performing install step for 'Boost-regex'
+Performing configuration checks
+
+    - 32-bit                   : yes (cached)
+    - arm                      : no  (cached)
+    - mips1                    : no  (cached)
+    - power                    : no  (cached)
+    - sparc                    : no  (cached)
+    - x86                      : yes (cached)
+    - symlinks supported       : no  (cached)
+    - junctions supported      : yes (cached)
+    - hardlinks supported      : yes (cached)
+    - has_icu builds           : no  (cached)
+
+Component configuration:
+
+    - atomic                   : not building
+    - chrono                   : not building
+    - container                : not building
+    - context                  : not building
+    - coroutine                : not building
+    - coroutine2               : not building
+    - date_time                : not building
+    - exception                : not building
+    - fiber                    : not building
+    - filesystem               : not building
+    - graph                    : not building
+    - graph_parallel           : not building
+    - iostreams                : not building
+    - locale                   : not building
+    - log                      : not building
+    - math                     : not building
+    - metaparse                : not building
+    - mpi                      : not building
+    - program_options          : not building
+    - python                   : not building
+    - random                   : not building
+    - regex                    : building
+    - serialization            : not building
+    - signals                  : not building
+    - system                   : not building
+    - test                     : not building
+    - thread                   : not building
+    - timer                    : not building
+    - type_erasure             : not building
+    - wave                     : not building
+
+[100%] Completed 'Boost-regex'
+[100%] Built target Boost-regex
+-- [hunter] Build step successful (dir: C:/.hunter/_Base/9a3594a/7dabf8e/2c875e7/Build/Boost/__regex)
+-- [hunter] Cache saved: C:/.hunter/_Base/Cache/raw/720c9478d418df2c7ffc2ec18f5e189ce943919c.tar.bz2
+-- [hunter] BOOST_ROOT: C:/.hunter/_Base/9a3594a/7dabf8e/2c875e7/Install (ver.: 1.64.0)
+-- [hunter] BOOST_ROOT: C:/.hunter/_Base/9a3594a/7dabf8e/2c875e7/Install (ver.: 1.64.0)
+-- [hunter] Building Boost (component: system)
+loading initial cache file C:/.hunter/_Base/9a3594a/7dabf8e/2c875e7/cache.cmake
+loading initial cache file C:/.hunter/_Base/9a3594a/7dabf8e/2c875e7/Build/Boost/__system/args.cmake
+-- The C compiler identification is GNU 7.2.0
+-- The CXX compiler identification is GNU 7.2.0
+-- Check for working C compiler: D:/MinGWx64/mingw32/bin/gcc.exe
+-- Check for working C compiler: D:/MinGWx64/mingw32/bin/gcc.exe -- works
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: D:/MinGWx64/mingw32/bin/g++.exe
+-- Check for working CXX compiler: D:/MinGWx64/mingw32/bin/g++.exe -- works
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/.hunter/_Base/9a3594a/7dabf8e/2c875e7/Build/Boost/__system/Build
+Scanning dependencies of target Boost-system
+[ 12%] Creating directories for 'Boost-system'
+[ 25%] Performing download step (download, verify and extract) for 'Boost-system'
+-- verifying file...
+       file='C:/.hunter/_Base/Download/Boost/1.64.0/51421ef/boost_1_64_0.tar.bz2'
+-- File already exists and hash match (skip download):
+  file='C:/.hunter/_Base/Download/Boost/1.64.0/51421ef/boost_1_64_0.tar.bz2'
+  SHA1='51421ef259a4530edea0fbfc448460fcc5c64edb'
+-- extracting...
+     src='C:/.hunter/_Base/Download/Boost/1.64.0/51421ef/boost_1_64_0.tar.bz2'
+     dst='C:/.hunter/_Base/9a3594a/7dabf8e/2c875e7/Build/Boost/__system/Source'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 37%] No patch step for 'Boost-system'
+[ 50%] Performing update step for 'Boost-system'
+[ 62%] Performing configure step for 'Boost-system'
+Dummy patch command
+Building Boost.Build engine
+execcmd.c: In function 'onintr':
+execcmd.c:120:5: warning: implicit declaration of function 'out_printf'; did you mean 'lol_print'? [-Wimplicit-function-declaration]
+     out_printf( "...interrupted\n" );
+     ^~~~~~~~~~
+     lol_print
+execnt.c: In function 'maxline':
+execnt.c:524:12: warning: type defaults to 'int' in declaration of 'result' [-Wimplicit-int]
+     static result;
+            ^~~~~~
+filent.c: In function 'file_archscan':
+filent.c:358:10: warning: implicit declaration of function 'filelist_empty'; did you mean 'filelist_next'? [-Wimplicit-function-declaration]
+     if ( filelist_empty( archive->members ) )
+          ^~~~~~~~~~~~~~
+          filelist_next
+filent.c:360:14: warning: implicit declaration of function 'file_collect_archive_content_'; did you mean 'file_collect_dir_content_'? [-Wimplicit-function-declaration]
+         if ( file_collect_archive_content_( archive ) < 0 )
+              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+              file_collect_dir_content_
+make.c: In function 'make':
+make.c:132:13: warning: implicit declaration of function 'out_printf'; did you mean 'lol_print'? [-Wimplicit-function-declaration]
+             out_printf( "...found %d target%s...\n", counts->targets,
+             ^~~~~~~~~~
+             lol_print
+make.c: In function 'make0':
+make.c:735:13: warning: implicit declaration of function 'out_flush'; did you mean 'fflush'? [-Wimplicit-function-declaration]
+             out_flush();
+             ^~~~~~~~~
+             fflush
+filesys.c: In function 'file_archivescan_impl':
+filesys.c:360:10: warning: implicit declaration of function 'filelist_empty'; did you mean 'filelist_next'? [-Wimplicit-function-declaration]
+     if ( filelist_empty( archive->members ) )
+          ^~~~~~~~~~~~~~
+          filelist_next
+modules/path.c: In function 'path_exists':
+modules/path.c:16:12: warning: implicit declaration of function 'file_query' [-Wimplicit-function-declaration]
+     return file_query( list_front( lol_get( frame->args, 0 ) ) ) ?
+            ^~~~~~~~~~
+
+Bootstrapping is done. To build, run:
+
+    .\b2
+    
+To adjust configuration, edit 'project-config.jam'.
+Further information:
+
+    - Command line help:
+    .\b2 --help
+     
+    - Getting started guide: 
+    http://boost.org/more/getting_started/windows.html
+     
+    - Boost.Build documentation:
+    http://www.boost.org/build/doc/html/index.html
+[ 75%] Performing build step for 'Boost-system'
+Performing configuration checks
+
+    - 32-bit                   : yes
+    - arm                      : no
+    - mips1                    : no
+    - power                    : no
+    - sparc                    : no
+    - x86                      : yes
+
+Building the Boost C++ Libraries.
+
+
+    - symlinks supported       : no
+    - junctions supported      : yes
+    - hardlinks supported      : yes
+
+Component configuration:
+
+    - atomic                   : not building
+    - chrono                   : not building
+    - container                : not building
+    - context                  : not building
+    - coroutine                : not building
+    - coroutine2               : not building
+    - date_time                : not building
+    - exception                : not building
+    - fiber                    : not building
+    - filesystem               : not building
+    - graph                    : not building
+    - graph_parallel           : not building
+    - iostreams                : not building
+    - locale                   : not building
+    - log                      : not building
+    - math                     : not building
+    - metaparse                : not building
+    - mpi                      : not building
+    - program_options          : not building
+    - python                   : not building
+    - random                   : not building
+    - regex                    : not building
+    - serialization            : not building
+    - signals                  : not building
+    - system                   : building
+    - test                     : not building
+    - thread                   : not building
+    - timer                    : not building
+    - type_erasure             : not building
+    - wave                     : not building
+
+...found 153 targets...
+...updating 20 targets...
+common.mkdir stage
+common.mkdir bin.v2\libs
+common.mkdir stage\lib
+common.mkdir bin.v2\libs\system
+common.mkdir bin.v2\libs\system\build
+common.mkdir bin.v2\libs\system\build\gcc-mingw-7.2.0
+common.mkdir bin.v2\libs\system\build\gcc-mingw-7.2.0\debug
+common.mkdir bin.v2\libs\system\build\gcc-mingw-7.2.0\release
+common.mkdir bin.v2\libs\system\build\gcc-mingw-7.2.0\debug\link-static
+common.mkdir bin.v2\libs\system\build\gcc-mingw-7.2.0\release\link-static
+common.mkdir bin.v2\libs\system\build\gcc-mingw-7.2.0\debug\link-static\threading-multi
+common.mkdir bin.v2\libs\system\build\gcc-mingw-7.2.0\release\link-static\threading-multi
+gcc.compile.c++ bin.v2\libs\system\build\gcc-mingw-7.2.0\debug\link-static\threading-multi\error_code.o
+gcc.compile.c++ bin.v2\libs\system\build\gcc-mingw-7.2.0\release\link-static\threading-multi\error_code.o
+gcc.archive bin.v2\libs\system\build\gcc-mingw-7.2.0\release\link-static\threading-multi\libboost_system-mt.a
+gcc.archive bin.v2\libs\system\build\gcc-mingw-7.2.0\debug\link-static\threading-multi\libboost_system-mt-d.a
+common.copy stage\lib\libboost_system-mt.a
+bin.v2\libs\system\build\gcc-mingw-7.2.0\release\link-static\threading-multi\libboost_system-mt.a
+пїЅпїЅпїЅпїЅпїЅа®ўпїЅпїЅпїЅ д ©пїЅпїЅпїЅ:         1.
+common.copy stage\lib\libboost_system-mt-d.a
+bin.v2\libs\system\build\gcc-mingw-7.2.0\debug\link-static\threading-multi\libboost_system-mt-d.a
+пїЅпїЅпїЅпїЅпїЅа®ўпїЅпїЅпїЅ д ©пїЅпїЅпїЅ:         1.
+...updated 20 targets...
+
+
+The Boost C++ Libraries were successfully built!
+
+The following directory should be added to compiler include paths:
+
+    C:\.hunter\_Base\9a3594a\7dabf8e\2c875e7\Build\Boost\__system\Source
+
+The following directory should be added to linker library paths:
+
+    C:\.hunter\_Base\9a3594a\7dabf8e\2c875e7\Build\Boost\__system\Source\stage\lib
+
+[ 87%] Performing install step for 'Boost-system'
+Performing configuration checks
+
+    - 32-bit                   : yes (cached)
+    - arm                      : no  (cached)
+    - mips1                    : no  (cached)
+    - power                    : no  (cached)
+    - sparc                    : no  (cached)
+    - x86                      : yes (cached)
+    - symlinks supported       : no  (cached)
+    - junctions supported      : yes (cached)
+    - hardlinks supported      : yes (cached)
+
+Component configuration:
+
+    - atomic                   : not building
+    - chrono                   : not building
+    - container                : not building
+    - context                  : not building
+    - coroutine                : not building
+    - coroutine2               : not building
+    - date_time                : not building
+    - exception                : not building
+    - fiber                    : not building
+    - filesystem               : not building
+    - graph                    : not building
+    - graph_parallel           : not building
+    - iostreams                : not building
+    - locale                   : not building
+    - log                      : not building
+    - math                     : not building
+    - metaparse                : not building
+    - mpi                      : not building
+    - program_options          : not building
+    - python                   : not building
+    - random                   : not building
+    - regex                    : not building
+    - serialization            : not building
+    - signals                  : not building
+    - system                   : building
+    - test                     : not building
+    - thread                   : not building
+    - timer                    : not building
+    - type_erasure             : not building
+    - wave                     : not building
+
+[100%] Completed 'Boost-system'
+[100%] Built target Boost-system
+-- [hunter] Build step successful (dir: C:/.hunter/_Base/9a3594a/7dabf8e/2c875e7/Build/Boost/__system)
+-- [hunter] Cache saved: C:/.hunter/_Base/Cache/raw/39ca3324be1fe24bbe4bbda819f016f042e21ea6.tar.bz2
+-- [hunter] BOOST_ROOT: C:/.hunter/_Base/9a3594a/7dabf8e/2c875e7/Install (ver.: 1.64.0)
+CMake Warning (dev) at CMakeLists.txt:30 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  Environment variable Boost_ROOT is set to:
+
+    C:/.hunter/_Base/9a3594a/7dabf8e/2c875e7/Install
+
+  For compatibility, CMake is ignoring the variable.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Boost version: 1.64.0
+-- Found the following Boost libraries:
+--   filesystem
+--   regex
+-- Boost version: 1.64.0
+-- Found the following Boost libraries:
+--   system
+--   regex
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/New Folder/lab-04-boost-filesystem/cmake-build-debug
